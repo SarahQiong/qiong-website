@@ -1,0 +1,68 @@
+baseURL: "https://sarahqiong.github.io/"
+title: "Qiong Zhang | 张琼"
+theme: "PaperMod"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+ignoreLogs:
+  - 'warning-goldmark-raw-html'
+
+
+params:
+  author: "Qiong Zhang"
+  description: "Personal website"
+  ShowReadingTime: true
+  ShowShareButtons: false
+  mainSections:
+    - "news"
+  # Enable custom CSS
+  assets:
+    customCSS: 
+      - css/extended/custom.css
+  fontawesome: true
+ 
+  # Profile mode configuration
+  profileMode:
+    enabled: true
+    title: "Qiong Zhang"
+    subtitle: "Assistant Professor · Statistics & Machine Learning \\\n As a statistician by training, I entered the exciting world of AI, exploring how data and algorithms can unravel complex stories."    
+    imageUrl: "images/profile.jpg"
+    imageWidth: 175
+    imageHeight: 200
+
+  # Social icons configuration
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/SarahQiong"
+    - name: "email"        # Email
+      url: "mailto:qiong.zhang@ruc.edu.cn"
+    - name: "google"  # Google Scholar placeholder
+      url: "https://scholar.google.com/citations?user=T5EE3LQAAAAJ&hl=en"
+    - name: "cv"        # CV link
+      url: "/files/CV.pdf"
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About me"
+      url: "/about/"
+      weight: 1
+    - identifier: "news"
+      name: "News"
+      url: "/news/"
+      weight: 2
+    - identifier: "research"
+      name: "Research"
+      url: "/research/"
+      weight: 3
+    - identifier: "teaching"
+      name: "Teaching"
+      url: "/teaching/"
+      weight: 4
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 5

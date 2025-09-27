@@ -1,0 +1,8 @@
+<details {{ if .Get "open" }}open{{ end }} class="custom-details">
+    <summary style="font-size: {{ .Get " size" | default "1.2em" }}; font-weight: {{ .Get "weight" | default "700" }};">
+        {{ .Get "title" | default "Click to expand" }}
+    </summary>
+    <div class="details-content">
+        {{ .Inner | markdownify }}
+    </div>
+</details>

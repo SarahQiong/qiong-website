@@ -1,0 +1,87 @@
+/* Use data attributes instead */
+.post-content li [data-conference] {
+    color: #2E8B57 !important;
+    font-weight: bold !important;
+    background-color: #f0f8f0 !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    border: 1px solid #2E8B57 !important;
+}
+
+.post-content a [data-conference] {
+    color: #1E6EA7 !important;
+    font-weight: bold !important;
+    background-color: #f0f7ff !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    border: 1px solid #1E6EA7 !important;
+    text-decoration: none !important;
+}
+
+
+.paper-xs-title {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.05rem;
+}
+
+.paper-xs-authors {
+    font-size: 0.7em;
+    color: var(--secondary);
+    margin-bottom: 0.05rem;
+    font-style: italic;
+}
+
+.paper-xs-venue {
+    font-size: 0.7em;
+    color: #1E6EA7;
+}
+
+
+.paper-links {
+    font-size: 0.65em;
+    margin-top: 0.3rem;
+    color: var(--tertiary);
+}
+
+.paper-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.paper-links a:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+/* BibTeX styling - CSS only toggle */
+.bibtex {
+    font-size: 0.6em;
+    background: var(--code-bg);
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    border-left: 3px solid var(--primary);
+    display: none;
+}
+
+.bib-toggle {
+    cursor: pointer;
+    color: var(--secondary);
+    margin-right: 1rem;
+}
+
+.bib-toggle:hover {
+    color: var(--primary);
+}
+
+/* Hide the checkbox */
+.bib-checkbox {
+    display: none;
+}
+
+/* Show BibTeX when checkbox is checked */
+.bib-checkbox:checked+.bibtex {
+    display: block;
+}
