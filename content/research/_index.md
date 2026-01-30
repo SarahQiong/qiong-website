@@ -6,8 +6,6 @@
 {{< details title="🏗️ Work in progress" size="1.4em" weight="800" >}}
 
 
-- <div class="paper-xs-title">Minimum Wasserstein distance estimator under covariate shift: closed form and super-efficiency</div>
-    <div class="paper-xs-authors">Junjun Lang, <strong>Qiong Zhang</strong>📧, Yukun Liu📧</div>
     
 - <div class="paper-xs-title">Neyman-Pearson multiclass classification under label noise</div>
     <div class="paper-xs-authors"><strong>Qiong Zhang</strong>, Qinglong Tian, Pengfei Li</div>
@@ -17,8 +15,19 @@
 
 {{< details title="📜 Preprints" open="true" size="1.4em" >}}
 
+- <div class="paper-xs-title">TabClustPFN: A prior-fitted network for tabular data clustering</div>
+    <div class="paper-xs-authors">Tianqi Zhao🎓, Guanyang Wang, Yan Shuo Tan, <strong>Qiong Zhang</strong>📧</div>
+    <!-- <div class="paper-links"> -->
+    <!-- <a href="https://arxiv.org/pdf/2601.07282">📚 arXiv</a> -->
+    
+- <div class="paper-xs-title">Minimum Wasserstein distance estimator under covariate shift: closed form and super-efficiency</div>
+    <div class="paper-xs-authors">Junjun Lang, <strong>Qiong Zhang</strong>📧, Yukun Liu📧</div>
+    <div class="paper-links">
+    <a href="https://arxiv.org/pdf/2601.07282">📚 arXiv</a>
+
+
 - <div class="paper-xs-title">Reference image-guided comparative vision-language models for medical diagnosis</div>
-    <div class="paper-xs-authors">Ruinan Jing, Gexin Huang, Xinwei Shen, <strong>Qiong Zhang</strong>, Yan Shuo Tan, Xiaoxiao Li</div>
+    <div class="paper-xs-authors">Ruinan Jin, Gexin Huang, Xinwei Shen, <strong>Qiong Zhang</strong>, Yan Shuo Tan, Xiaoxiao Li</div>
     <div class="paper-links">
     <a href="https://arxiv.org/pdf/2506.18140">📚 arXiv</a>
     </div>
@@ -27,24 +36,6 @@
     <div class="paper-xs-authors"><strong>Qiong Zhang</strong>, Jing Peng<sup>*</sup>, Xin Zhang<sup>*</sup>, Aline Talhouk, Gang Niu, Xiaoxiao Li</div>
     <div class="paper-links">
     <a href="https://arxiv.org/pdf/2210.02042">📚 arXiv</a>
-    </div>
-    
-
-- <div class="paper-xs-title">Beyond aggregation: Guiding clients in heterogeneous federated learning</div>
-    <div class="paper-xs-authors">Zijian Wang🎓, Xiaofei Zhang, Xin Zhang, Yukun Liu, <strong>Qiong Zhang</strong>📧</div>
-    <div class="paper-xs-venue">Under review at ICLR</div>
-    <div class="paper-links">
-    <a href="https://openreview.net/forum?id=RZT1ixYGk1">📄 Openreview</a>
-    <!-- <a href="https://arxiv.org/pdf/2010.10412.pdf">📚 arXiv</a> -->
-    <a href="https://github.com/zijianwang0510/FedDRM.git">💻 Code</a>
-    </div>
-
-- <div class="paper-xs-title">Forgettable federated linear learning with certified data removal</div>
-    <div class="paper-xs-authors">Ruinan Jin🎓, Minghui Chen🎓, <strong>Qiong Zhang</strong>📧, Xiaoxiao Li</div>
-    <div class="paper-xs-venue">R&R at IEEE TNNLS</div>
-    <div class="paper-links">
-    <a href="https://arxiv.org/pdf/2306.02216">📚 arXiv</a>
-    <a href="https://github.com/Nanboy-Ronan/2F2L-Federated-Unlearning">💻 Code</a>
     </div>
     
 
@@ -65,8 +56,15 @@
     <a href="https://github.com/SarahQiong/RobustSCGMM">💻 Code</a>
     <a href="/files/slides/Byzantine.pdf">📚 Slides</a>
     </div>
-    
 
+- <div class="paper-xs-title">Forgettable federated linear learning with certified data removal</div>
+    <div class="paper-xs-authors">Ruinan Jin🎓, Minghui Chen🎓, <strong>Qiong Zhang</strong>📧, Xiaoxiao Li</div>
+    <div class="paper-xs-venue">Minor revision at IEEE TNNLS</div>
+    <div class="paper-links">
+    <a href="https://arxiv.org/pdf/2306.02216">📚 arXiv</a>
+    <a href="https://github.com/Nanboy-Ronan/2F2L-Federated-Unlearning">💻 Code</a>
+    </div>
+    
         
 
 {{< /details >}}
@@ -74,8 +72,17 @@
 
 {{< details title="✅ Published" open="true" size="1.4em" >}}
 
+- <div class="paper-xs-title">Beyond aggregation: Guiding clients in heterogeneous federated learning</div>
+    <div class="paper-xs-authors">Zijian Wang🎓, Xiaofei Zhang, Xin Zhang, Yukun Liu, <strong>Qiong Zhang</strong>📧</div>
+    <div class="paper-xs-venue">ICLR, 2026</div>
+    <div class="paper-links">
+    <a href="https://openreview.net/forum?id=RZT1ixYGk1">📄 Openreview</a>
+    <a href="https://arxiv.org/pdf/2509.23049">📚 arXiv</a>
+    <a href="https://github.com/zijianwang0510/FedDRM.git">💻 Code</a>
+    </div>
+
 - <div class="paper-xs-title">Gaussian Herding across Pens: An optimal transport perspective on global Gaussian reduction for 3DGS</div>
-    <div class="paper-xs-authors">Tao Wang<sup>*</sup>🎓, Mengyu Li<sup>*</sup>🎓, Geduo Zeng🎓, Meng Cheng📧, <strong>Qiong Zhang</strong>📧</div>
+    <div class="paper-xs-authors">Tao Wang<sup>*</sup>🎓, Mengyu Li<sup>*</sup>🎓, Geduo Zeng🎓, Cheng Meng📧, <strong>Qiong Zhang</strong>📧</div>
     <div class="paper-xs-venue">NeurIPS (spotlight), 2025</div>
     <div class="paper-links">
     <a href="https://openreview.net/forum?id=j1QkrVjNVF">📄 Openreview</a>
@@ -95,7 +102,7 @@
 
 
 - <div class="paper-xs-title">S4M: S4 for multivariate time series forecasting with Missing values</div>
-    <div class="paper-xs-authors">Jing Peng🎓, Meiqi Yang, <strong>Qiong Zhang</strong>, Xiaoxiao Li</div>
+    <div class="paper-xs-authors">Jing Peng🎓, Meiqi Yang, <strong>Qiong Zhang</strong>📧, Xiaoxiao Li</div>
     <div class="paper-xs-venue">ICLR, 2025</div>
     <div class="paper-links">
     <a href="https://openreview.net/pdf?id=BkftcwIVmR">📄 Openreview</a>

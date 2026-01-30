@@ -7,6 +7,11 @@ markup:
     renderer:
       unsafe: true
 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
 ignoreLogs:
   - 'warning-goldmark-raw-html'
 
@@ -44,6 +49,18 @@ params:
     - name: "cv"        # CV link
       url: "/files/CV.pdf"
 
+  # Enable TOC
+  ShowToc: true
+
+  # Ensure TOC is open and visible
+  tocOpen: true           # Keep TOC open by default
+  tocSticky: true         # Sticky TOC that stays visible
+  
+  # Configure TOC behavior
+  article:
+    toc: true
+    comments: false  # Set to true if you want comments
+
 menu:
   main:
     - identifier: "about"
@@ -66,3 +83,6 @@ menu:
       name: "Blog"
       url: "/blog/"
       weight: 5
+
+
+      
