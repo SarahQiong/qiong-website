@@ -17,8 +17,8 @@
 
 - <div class="paper-xs-title">TabClustPFN: A prior-fitted network for tabular data clustering</div>
     <div class="paper-xs-authors">Tianqi Zhao🎓, Guanyang Wang, Yan Shuo Tan, <strong>Qiong Zhang</strong>📧</div>
-    <!-- <div class="paper-links"> -->
-    <!-- <a href="https://arxiv.org/pdf/2601.07282">📚 arXiv</a> -->
+    <div class="paper-links">
+    <a href="https://arxiv.org/pdf/2601.21656">📚 arXiv</a>
     
 - <div class="paper-xs-title">Minimum Wasserstein distance estimator under covariate shift: closed form and super-efficiency</div>
     <div class="paper-xs-authors">Junjun Lang, <strong>Qiong Zhang</strong>📧, Yukun Liu📧</div>
